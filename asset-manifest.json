@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1d240c32.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a42e4e33.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a42e4e33.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.53b26087.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.53b26087.js.map",
-    "static/js/2.f926e2ca.chunk.js": "/Portfolio/static/js/2.f926e2ca.chunk.js",
-    "static/js/2.f926e2ca.chunk.js.map": "/Portfolio/static/js/2.f926e2ca.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.e8b262e8dcfe0d86dc9bc24e98cacd1e.js": "/Portfolio/precache-manifest.e8b262e8dcfe0d86dc9bc24e98cacd1e.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.1d240c32.chunk.css.map": "/Portfolio/static/css/main.1d240c32.chunk.css.map",
-    "static/js/2.f926e2ca.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f926e2ca.chunk.js.LICENSE.txt",
-    "static/media/MonicaBartha.png": "/Portfolio/static/media/MonicaBartha.4fd3dcce.png",
-    "static/media/caesar-cipher-mockup.jpg": "/Portfolio/static/media/caesar-cipher-mockup.3749fb1d.jpg",
-    "static/media/finger-food-facebook.jpg": "/Portfolio/static/media/finger-food-facebook.d525b990.jpg",
-    "static/media/App.css": "/Portfolio/static/media/jetbrainsmono-regular-webfont.b451ce56.woff2"
+    "main.css": "/monica-s-portfolio/static/css/main.69d1b611.chunk.css",
+    "main.js": "/monica-s-portfolio/static/js/main.37c9977a.chunk.js",
+    "main.js.map": "/monica-s-portfolio/static/js/main.37c9977a.chunk.js.map",
+    "runtime-main.js": "/monica-s-portfolio/static/js/runtime-main.e1c7e675.js",
+    "runtime-main.js.map": "/monica-s-portfolio/static/js/runtime-main.e1c7e675.js.map",
+    "static/js/2.f926e2ca.chunk.js": "/monica-s-portfolio/static/js/2.f926e2ca.chunk.js",
+    "static/js/2.f926e2ca.chunk.js.map": "/monica-s-portfolio/static/js/2.f926e2ca.chunk.js.map",
+    "index.html": "/monica-s-portfolio/index.html",
+    "precache-manifest.0d2ba7418aefd4af9511044caa11a77e.js": "/monica-s-portfolio/precache-manifest.0d2ba7418aefd4af9511044caa11a77e.js",
+    "service-worker.js": "/monica-s-portfolio/service-worker.js",
+    "static/css/main.69d1b611.chunk.css.map": "/monica-s-portfolio/static/css/main.69d1b611.chunk.css.map",
+    "static/js/2.f926e2ca.chunk.js.LICENSE.txt": "/monica-s-portfolio/static/js/2.f926e2ca.chunk.js.LICENSE.txt",
+    "static/media/MonicaBartha.png": "/monica-s-portfolio/static/media/MonicaBartha.4fd3dcce.png",
+    "static/media/caesar-cipher-mockup.jpg": "/monica-s-portfolio/static/media/caesar-cipher-mockup.3749fb1d.jpg",
+    "static/media/finger-food-facebook.jpg": "/monica-s-portfolio/static/media/finger-food-facebook.d525b990.jpg",
+    "static/media/App.css": "/monica-s-portfolio/static/media/jetbrainsmono-regular-webfont.b451ce56.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.53b26087.js",
+    "static/js/runtime-main.e1c7e675.js",
     "static/js/2.f926e2ca.chunk.js",
-    "static/css/main.1d240c32.chunk.css",
-    "static/js/main.a42e4e33.chunk.js"
+    "static/css/main.69d1b611.chunk.css",
+    "static/js/main.37c9977a.chunk.js"
   ]
 }
