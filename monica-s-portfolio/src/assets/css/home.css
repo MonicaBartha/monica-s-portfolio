@@ -13,9 +13,20 @@
     margin-top: 5%;
 }
 
+.paragraph {
+    margin: 1.562rem 0 1.562rem 0;
+    padding-right: 35%;
+}
+
 @media only screen and (max-width: 768px) {
     .homeImg {
         width: 40%;
         margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .paragraph {
+        padding-right: 25%;
     }
 }

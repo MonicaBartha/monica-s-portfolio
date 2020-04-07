@@ -1,18 +1,25 @@
 /* --- Works page --- */
-.mainDiv {
+.workDiv {
     display: flex;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projectDiv {
+    margin-top: 1.875rem;
 }
 
 .firstColumn {
-    border: 1px solid green;
-    width: 50%;
+    width: 40%;
 }
 
 .secondColumn {
-    border: 1px solid red;
+    box-sizing: border-box;
     text-align: right;
     margin-top: 40px;
-    width: 50%;
+    width: 40%;
+    padding-right: 2%;
 }
 
 .projectDescription {
@@ -36,10 +43,6 @@
     font-size: 11px;
 }
 
-.projectDiv {
-    margin-top: 20px;
-}
-
 .secondProject {
     margin-top: 50px;
 }
@@ -48,4 +51,19 @@
     width: 100%;
 }
 
-/* --- end of work page --- */
+@media only screen and (max-width: 480px) {
+    .workDiv {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .firstColumn {
+        width: 90%;
+    }
+
+    .secondColumn {
+        width: 90%;
+    }
+
+}

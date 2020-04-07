@@ -6,9 +6,9 @@ import '../assets/css/work.css';
 
 function ProjectFingerFood() {
     return (
-      <div className="mainDiv">
+      <div className="workDiv">
         <div className="firstColumn">
-         <img className="fingerFoodImg" alt="finger-food-project" src={FingerFood} />
+         <img className="fingerFoodImg" alt="finger-food-project" align="left" src={FingerFood} />
         </div>
         <div className="secondColumn">
                 <p className="projectsP">Collaborative Project</p>

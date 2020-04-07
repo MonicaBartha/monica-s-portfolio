@@ -6,16 +6,24 @@ body {
 }
 
 /* menu styles */
-.nav {
+header {
+  width: 100%;
+  position: relative;
   min-height: 10vh;
+}
+
+.nav {
   color: #333;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: "jetbrains_monoregular";
   text-align: right;
+  border-bottom: 1px solid #FF0081;
 }
 
 .nav-links {
   text-decoration: 'none';
+  z-index: 1000;
+
 }
 
 .nav-links,
@@ -27,8 +35,7 @@ ul {
 
 .nav-links ul,
 li {
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: 0.625rem;
 }
 
 .nav-links ul,
@@ -38,12 +45,12 @@ li:hover {
 }
 
 label {
-  margin: 0 40px 0 0;
-  font-size: 26px;
+  margin: 0 2.5rem 0 0.625rem;
+  font-size: 1.625rem;
   line-height: 10vh;
-  width: 30px;
-  height: 30px;
-  padding: 10px;
+  width: 1.875rem;
+  height: 1.875rem;
+  padding: 0.625rem;
   display: none;
 }
 
@@ -67,18 +74,18 @@ label {
 .customP {
   color: #FF0081;
   font-family: jetbrains_monoregular;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
   line-height: 1;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #FF77BC;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
@@ -123,7 +130,6 @@ a {
   box-sizing: border-box;
   padding: 2%;
   justify-content: space-around;
-  border: 1px solid royalblue;
 }
 
 .divContent {
@@ -146,6 +152,8 @@ a {
   font-family: jetbrains_monoregular;
   transition: all .25s cubic-bezier(.645, .045, .355, 1) 0s;
 }
+
+/* end of tabs from Experience page */
 
 /* When select text */
 ::-moz-selection {
@@ -172,7 +180,7 @@ a {
 }
 
 .divider {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 /* ----- RESPONSIVE DESIGN ---- */
@@ -193,11 +201,11 @@ a {
 
   h1,
   h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   p {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 
   .divContent {
@@ -213,10 +221,13 @@ a {
   }
 
   .nav-links {
+    top: 100%;
     width: 50%;
     background-color: rgb(201, 201, 201);
     text-align: center;
+    z-index: 10000;
     display: none;
+    position: absolute;
   }
 
   .nav-links,
@@ -233,4 +244,47 @@ a {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .nav-links {
+    width: 60%;
+  }
+
+  .btn {
+    border: none;
+    margin-top: 0.625rem;
+  }
+
+}
+
 /* end of responsive menu */
+
+/* Tab Name from Experience Page */
+@media only screen and (max-width: 480px) {
+  .MuiTab-wrapper {
+    font-size: 10px;
+    text-transform: capitalize;
+    font-family: jetbrains_monoregular;
+  }
+
+  .MuiTab-wrapper:hover {
+    color: #FF0081;
+    text-transform: capitalize;
+    font-family: jetbrains_monoregular;
+    transition: all .25s cubic-bezier(.645, .045, .355, 1) 0s;
+  }
+
+  .MuiTypography-body1 {
+    width: 80%;
+  }
+
+  .MuiBox-root .MuiBox-root-227,
+  .customP {
+    font-size: 12px;
+  }
+
+  .MuiTypography-body1 h3 {
+    line-height: 1.2;
+  }
+}
+
+/* end of tabs from Experience page */

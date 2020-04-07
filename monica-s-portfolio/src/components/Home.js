@@ -11,7 +11,9 @@ function Home() {
                 <p className="customP">01. Hi, I am</p>
                 <h1>Monica Bartha</h1>
                 <h2>I bring some pink</h2>
-                <p>I’m a front-end developer based in Santiago, Chile,<br /> specialized in developing web apps.</p>
+                  <div className="paragraph">
+                    <p>I’m a front-end developer based in Santiago, Chile, specialized in developing web apps.</p>
+                  </div>
                 <Button title="See My Works" />
             </div>   
         <div className="divImg">
