@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da6c76b52281fcea88f467ed2c8d4272",
+    "revision": "57080e9db0115d281cefefec0a38f322",
     "url": "/monica-s-portfolio/index.html"
   },
   {
-    "revision": "bf788e283e2e4b040552",
-    "url": "/monica-s-portfolio/static/css/main.69d1b611.chunk.css"
+    "revision": "db52902842bbaefd6741",
+    "url": "/monica-s-portfolio/static/css/main.74529e34.chunk.css"
   },
   {
-    "revision": "8644e57497293476ceac",
-    "url": "/monica-s-portfolio/static/js/2.f926e2ca.chunk.js"
+    "revision": "02d1cc2c5c080793358e",
+    "url": "/monica-s-portfolio/static/js/2.1e4dab42.chunk.js"
   },
   {
     "revision": "a5288a4ed4e4beba8413aa5c9ae969ea",
-    "url": "/monica-s-portfolio/static/js/2.f926e2ca.chunk.js.LICENSE.txt"
+    "url": "/monica-s-portfolio/static/js/2.1e4dab42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf788e283e2e4b040552",
-    "url": "/monica-s-portfolio/static/js/main.37c9977a.chunk.js"
+    "revision": "db52902842bbaefd6741",
+    "url": "/monica-s-portfolio/static/js/main.9e580bb0.chunk.js"
   },
   {
     "revision": "55dfebb2c6f3a89673fd",
