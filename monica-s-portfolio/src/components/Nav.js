@@ -16,7 +16,7 @@ function Nav() {
     }
     return (
         <div className="nav">
-            <label for="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
+            <label htmlFor="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
             <input type="checkbox" id="toggle" />
             <div className="nav-links">
                 <ul>

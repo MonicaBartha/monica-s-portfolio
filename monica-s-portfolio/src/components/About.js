@@ -2,21 +2,16 @@ import React from 'react';
 import '../App.css';
 
 function About() {
-  const spanStyle = {
-    fontSize: '30px'
-  }
     return (
-      <div className="firstHomeDiv">
-        <div className="firstHomeDivContent">
-          <p className="customP">02.</p><h1 style={spanStyle}>About me</h1>
+      <div className="mainDiv">
+        <div className="divContent">
+          <p className="customP">02. Talents</p>
+          <h1>About me</h1>
           <p>I like team work using agile methodology, makes me able to deliver high-quality products.</p>
           <p>Here's a few technologies I've been working with recently:</p>
-          <ol>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-          </ol>
+          <p><strong>Design:</strong> <span className="customP">Photoshop | Figma</span></p>
+          <p><strong>Develop:</strong> <span className="customP">Javascript  |  React  |  HTML5  |  CSS3 | Firebase | WordPress</span></p>
+          <p><strong>Digital marketing:</strong> <span className="customP">SEO | SEM | Social media</span></p>
         </div>
       </div>
     );

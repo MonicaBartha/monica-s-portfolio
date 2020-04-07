@@ -1,12 +1,22 @@
 import React from 'react';
+import '../assets/css/home.css';
+import Button from '../components/Button';
+import Moni from '../media/MonicaBartha.png';
 import '../App.css';
-import HomeColumns from './HomeColumns'
-
 function Home() {
   
     return (
-      <div className="firstHomeDiv">
-        <HomeColumns />
+      <div className="mainDiv">
+        <div className="divContent">
+                <p className="customP">01. Hi, I am</p>
+                <h1>Monica Bartha</h1>
+                <h2>I bring some pink</h2>
+                <p>I’m a front-end developer based in Santiago, Chile,<br /> specialized in developing web apps.</p>
+                <Button title="See My Works" />
+            </div>   
+        <div className="divImg">
+            <img className="homeImg" alt="moni" src={Moni} />
+        </div>
       </div>
       
     );

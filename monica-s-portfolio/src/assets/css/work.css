@@ -1,0 +1,51 @@
+/* --- Works page --- */
+.mainDiv {
+    display: flex;
+}
+
+.firstColumn {
+    border: 1px solid green;
+    width: 50%;
+}
+
+.secondColumn {
+    border: 1px solid red;
+    text-align: right;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.projectDescription {
+    background-color: gray;
+    color: #fff;
+    padding: 5%;
+}
+
+.projectTechnologies {
+    font-family: jetbrains_monoregular;
+    font-size: 11px;
+}
+
+.fingerFoodImg {
+    width: 100%;
+}
+
+.projectsP {
+    color: #FF0081;
+    font-family: jetbrains_monoregular;
+    font-size: 11px;
+}
+
+.projectDiv {
+    margin-top: 20px;
+}
+
+.secondProject {
+    margin-top: 50px;
+}
+
+.caesarCipher {
+    width: 100%;
+}
+
+/* --- end of work page --- */
