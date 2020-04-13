@@ -21,8 +21,8 @@ export default function VerticalDividers() {
   return (
     <div className="dividerDiv">
       <Grid container alignItems="center" className={classes.root}>
-      <p className="verticalText">hello@monicab.dev</p>
-        <Divider orientation="vertical" flexItem />
+        <p><a className="verticalText" href="mailto:hello@monicab.dev">hello@monicab.dev</a></p>
+          <Divider orientation="vertical" flexItem />
        
       </Grid>
     </div>

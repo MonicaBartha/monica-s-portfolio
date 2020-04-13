@@ -7,7 +7,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Work from './components/Work';
 import Nav from './components/Nav';
-
+import Footer from '../src/components/Footer';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path="/work" component={Work} />
         <Route path="/contact" component={Contact} />
       </Switch>
-      
+      <Footer />
     </div>
   </Router>
 

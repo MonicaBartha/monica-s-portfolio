@@ -3,6 +3,8 @@ import '../assets/css/home.css';
 import Button from '../components/Button';
 import Moni from '../media/MonicaBartha.png';
 import '../App.css';
+
+
 function Home() {
   
     return (

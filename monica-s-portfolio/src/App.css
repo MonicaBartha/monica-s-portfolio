@@ -168,20 +168,6 @@ a {
 }
 
 /* -- end of select */
-.verticalText {
-  writing-mode: vertical-rl;
-  text-orientation: sideways-right;
-
-}
-
-.dividerDiv {
-  position: relative;
-  height: 10em;
-}
-
-.divider {
-  margin-top: 1.25rem;
-}
 
 /* ----- RESPONSIVE DESIGN ---- */
 @media only screen and (max-width: 768px) {
@@ -288,3 +274,4 @@ a {
 }
 
 /* end of tabs from Experience page */
+/* end of Responsive */
