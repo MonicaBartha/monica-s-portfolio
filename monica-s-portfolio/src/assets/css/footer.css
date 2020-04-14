@@ -1,9 +1,3 @@
-.divFooter {
-    position: fixed;
-
-
-}
-
 .footerIcons {
     position: fixed;
     bottom: 5%;
@@ -23,7 +17,7 @@
 .socialIcons:hover {
     filter: none;
     -webkit-filter: grayscale(0);
-    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .verticalText {
@@ -56,26 +50,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 480px) {
-    .divFooter {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .dividerDiv,
-    .footerIcons {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 767px) {
-    .divFooter {
-        display: flex;
-        flex-direction: column;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-    }
 
     .dividerDiv,
     .footerIcons {
@@ -85,7 +60,6 @@
     .mobileFooter {
         display: block;
         bottom: 0;
-        position: fixed;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -106,6 +80,7 @@
         text-decoration: none;
         font-family: "jetbrains_monoregular";
         color: grey;
+        letter-spacing: 0.1em;
     }
 
     .emailLink:hover {
@@ -127,7 +102,7 @@
     .footerBehanceIcon:hover {
         filter: none;
         -webkit-filter: grayscale(0);
-        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
     }
 
     .footerBehanceIcon {

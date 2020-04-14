@@ -6,7 +6,6 @@ import '../App.css';
 
 
 function Home() {
-  
     return (
       <div className="mainDiv">
         <div className="divContent">
@@ -16,7 +15,7 @@ function Home() {
                   <div className="paragraph">
                     <p>I’m a front-end developer based in Santiago, Chile, specialized in developing web apps.</p>
                   </div>
-                <Button title="See My Works" />
+                <Button title="See My Works"></Button>
             </div>   
         <div className="divImg">
             <img className="homeImg" alt="moni" src={Moni} />
