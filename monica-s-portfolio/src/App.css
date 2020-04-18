@@ -29,12 +29,10 @@ ul {
 }
 
 .nav-links,
-ul,
 li {
-  margin-right: 15px;
+  margin-top: 0.5rem;
+  margin-right: 0.93rem;
 }
-
-
 
 .nav-links ul,
 li:hover {
@@ -116,7 +114,7 @@ a {
   padding: 1.5%;
   color: #FF0081;
   background-color: transparent;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: jetbrains_monoregular;
   text-align: center;
   outline: none;
@@ -270,7 +268,7 @@ a {
 /* Tab Name from Experience Page */
 @media only screen and (max-width: 480px) {
   .MuiTab-wrapper {
-    font-size: 10px;
+    font-size: 0.625rem;
     text-transform: capitalize;
     font-family: jetbrains_monoregular;
   }
@@ -288,7 +286,7 @@ a {
 
   .MuiBox-root .MuiBox-root-227,
   .customP {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .MuiTypography-body1 h3 {

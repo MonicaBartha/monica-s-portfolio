@@ -23,12 +23,12 @@
 .verticalText {
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 0.2em;
     font-family: "jetbrains_monoregular";
     color: grey;
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 0.312rem;
 }
 
 .verticalText:hover {
@@ -38,7 +38,7 @@
 
 .dividerDiv {
     position: fixed;
-    bottom: 20px;
+    bottom: 1.25rem;
     left: 95%;
 }
 
@@ -91,7 +91,7 @@
     .footerLinkedInIcon,
     .footerGitIcon,
     .footerBehanceIcon {
-        padding: 5px;
+        padding: 0.312rem;
         filter: gray;
         -webkit-filter: grayscale(1);
         transition: all 0.5s ease-in-out;
@@ -106,6 +106,6 @@
     }
 
     .footerBehanceIcon {
-        margin-top: 7px;
+        margin-top: 0.437rem;
     }
 }

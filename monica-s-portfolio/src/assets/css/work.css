@@ -30,7 +30,7 @@
 
 .projectTechnologies {
     font-family: jetbrains_monoregular;
-    font-size: 11px;
+    font-size: 0.687rem;
 }
 
 .fingerFoodImg {
@@ -40,11 +40,11 @@
 .projectsP {
     color: #FF0081;
     font-family: jetbrains_monoregular;
-    font-size: 11px;
+    font-size: 0.687rem;
 }
 
 .secondProject {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .caesarCipher {
@@ -52,7 +52,7 @@
 }
 
 .codeIcon {
-    margin-right: 5px;
+    margin-right: 0.312rem;
 }
 
 @media only screen and (max-width: 480px) {
