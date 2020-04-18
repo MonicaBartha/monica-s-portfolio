@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/monica-s-portfolio/static/css/main.66aa421c.chunk.css",
-    "main.js": "/monica-s-portfolio/static/js/main.47be5fba.chunk.js",
-    "main.js.map": "/monica-s-portfolio/static/js/main.47be5fba.chunk.js.map",
+    "main.css": "/monica-s-portfolio/static/css/main.181e37df.chunk.css",
+    "main.js": "/monica-s-portfolio/static/js/main.ef5214a4.chunk.js",
+    "main.js.map": "/monica-s-portfolio/static/js/main.ef5214a4.chunk.js.map",
     "runtime-main.js": "/monica-s-portfolio/static/js/runtime-main.e1c7e675.js",
     "runtime-main.js.map": "/monica-s-portfolio/static/js/runtime-main.e1c7e675.js.map",
-    "static/js/2.d8d913b0.chunk.js": "/monica-s-portfolio/static/js/2.d8d913b0.chunk.js",
-    "static/js/2.d8d913b0.chunk.js.map": "/monica-s-portfolio/static/js/2.d8d913b0.chunk.js.map",
+    "static/js/2.47626705.chunk.js": "/monica-s-portfolio/static/js/2.47626705.chunk.js",
+    "static/js/2.47626705.chunk.js.map": "/monica-s-portfolio/static/js/2.47626705.chunk.js.map",
     "index.html": "/monica-s-portfolio/index.html",
-    "precache-manifest.9f9f67e132bc3cd20dd3e4dcf624f24b.js": "/monica-s-portfolio/precache-manifest.9f9f67e132bc3cd20dd3e4dcf624f24b.js",
+    "precache-manifest.f80b5a3a791a8da18a529ce09c331314.js": "/monica-s-portfolio/precache-manifest.f80b5a3a791a8da18a529ce09c331314.js",
     "service-worker.js": "/monica-s-portfolio/service-worker.js",
-    "static/css/main.66aa421c.chunk.css.map": "/monica-s-portfolio/static/css/main.66aa421c.chunk.css.map",
-    "static/js/2.d8d913b0.chunk.js.LICENSE.txt": "/monica-s-portfolio/static/js/2.d8d913b0.chunk.js.LICENSE.txt",
+    "static/css/main.181e37df.chunk.css.map": "/monica-s-portfolio/static/css/main.181e37df.chunk.css.map",
+    "static/js/2.47626705.chunk.js.LICENSE.txt": "/monica-s-portfolio/static/js/2.47626705.chunk.js.LICENSE.txt",
     "static/media/MonicaBartha.png": "/monica-s-portfolio/static/media/MonicaBartha.4fd3dcce.png",
     "static/media/caesar-cipher-mockup.jpg": "/monica-s-portfolio/static/media/caesar-cipher-mockup.3749fb1d.jpg",
     "static/media/finger-food-facebook.jpg": "/monica-s-portfolio/static/media/finger-food-facebook.d525b990.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1c7e675.js",
-    "static/js/2.d8d913b0.chunk.js",
-    "static/css/main.66aa421c.chunk.css",
-    "static/js/main.47be5fba.chunk.js"
+    "static/js/2.47626705.chunk.js",
+    "static/css/main.181e37df.chunk.css",
+    "static/js/main.ef5214a4.chunk.js"
   ]
 }
