@@ -42,6 +42,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
     height: 224,
+    marginBottom: '25%',
   },
   tabs: {
     width: '40%',
@@ -60,40 +61,42 @@ export default function VerticalTabs() {
     fontSize: '12px'
   }
   return (
-    <div className={classes.root}>
-      <Tabs
-        orientation="vertical"
-        variant="scrollable"
-        value={value}
-        onChange={handleChange}
-        aria-label="Vertical tabs example"
-        className={classes.tabs}
-      >
-        <Tab label="Front-end dev" {...a11yProps(0)} />
-        <Tab label="Freelancer dev" {...a11yProps(1)} />
-        <Tab label="Web dev" {...a11yProps(2)} />
-      </Tabs>
-      <TabPanel value={value} index={0}>
-        <strong><h3>Front-end dev</h3></strong>
-        <p className="customP" style={pStyle}>Oct 2019 - Present</p>
-        <p>Developing the projects from Laboratoria's Bootcamp using Vanilla Javascript, HTML5, CSS3, Firebase, 
-          Git&GitHub and testing tools. </p>
-        <p>Using agile methodology, modern tools like React, writing maintainable code</p>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-      <strong><h3>Freelancer web developer</h3></strong>
-        <p className="customP" style={pStyle}>Feb 2018 - Present</p>
-        <p>Design and develop WordPress websites using Avada Theme and third-party plugins by layout design previously 
-          created in Photoshop. </p>
-        <p>Check out some works on <a href="https://www.behance.net/monica_bartha"><span className="customP">Behance </span></a></p>
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-      <strong><h3>Web developer at Visual Edge digital agency</h3></strong>
-        <p className="customP" style={pStyle}>June 2016 - Feb 2018 (Romania)</p>
-        <p>Develop WordPress websites by layout design, e-commerce <br />
-          websites, implement of Search Engine Optimization, 
-          maintenance, updates, backups and fresh content.</p>
-      </TabPanel>
+    <div className="mainDiv">
+      <div className={classes.root}>
+        <Tabs
+          orientation="vertical"
+          variant="scrollable"
+          value={value}
+          onChange={handleChange}
+          aria-label="Vertical tabs example"
+          className={classes.tabs}
+        >
+          <Tab label="Front-end dev" {...a11yProps(0)} />
+          <Tab label="Freelancer dev" {...a11yProps(1)} />
+          <Tab label="Web dev" {...a11yProps(2)} />
+        </Tabs>
+        <TabPanel value={value} index={0}>
+          <strong><h3>Front-end dev</h3></strong>
+          <p className="customP" style={pStyle}>Oct 2019 - Present</p>
+          <p>Developing the projects from Laboratoria's Bootcamp using Vanilla Javascript, HTML5, CSS3, Firebase, 
+            Git&GitHub and testing tools. </p>
+          <p>Using agile methodology, modern tools like React, writing maintainable code</p>
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+        <strong><h3>Freelancer web developer</h3></strong>
+          <p className="customP" style={pStyle}>Feb 2018 - Present</p>
+          <p>Design and develop WordPress websites using Avada Theme and third-party plugins by layout design previously 
+            created in Photoshop. </p>
+          <p>Check out some works on <a href="https://www.behance.net/monica_bartha"><span className="customP">Behance </span></a></p>
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+        <strong><h3>Web developer at Visual Edge digital agency</h3></strong>
+          <p className="customP" style={pStyle}>June 2016 - Feb 2018 (Romania)</p>
+          <p>Develop WordPress websites by layout design, e-commerce <br />
+            websites, implement of Search Engine Optimization, 
+            maintenance, updates, backups and fresh content.</p>
+        </TabPanel>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
-import Button from './Button';
 import MenuIcon from '../media/menu-button.png'
 
 function Nav() {
@@ -26,7 +25,7 @@ function Nav() {
                         <Link style={linkStyle} to="/experience"><li><span style={navStyle}>03.</span> Experience</li></Link>
                         <Link style={linkStyle} to="/work"><li><span style={navStyle}>04.</span> Work</li></Link>
                         <Link style={linkStyle} to="/contact"><li><span style={navStyle}>05.</span> Contact</li></Link>
-                        <Button title="Resume" />
+                        <a href="Curriculum-Vitae_Monica-Bartha-EN.pdf" target="_blank" className="btn resume-btn" rel="noopener noreferrer">Resume</a>
                     </ul>
                 </div>
             </header>

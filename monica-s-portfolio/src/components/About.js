@@ -8,7 +8,9 @@ function About() {
           <p className="customP">02. Talents</p>
           <h1>About me</h1>
           <div className="paragraph">
-            <p>I like team work using agile methodology, makes me able to deliver high-quality products.  My goal is to help companies achieve high quality web applications.</p>
+            <p>I am constantly concerned about how to improve myself and as a professional, to acquire new skills. </p>
+            <p>Always looking for collaboration and friendship in the work team, doing my best to be an active part.</p>  
+            <p>My goal is to offer high quality web applications, delivered at right time.</p>
             <p>Here's a few technologies I've been working with recently:</p>
           </div>
           <p><strong>Design:</strong> <span className="customP">Photoshop | Figma</span></p>

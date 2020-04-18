@@ -1,9 +1,7 @@
 import React from 'react';
 import '../assets/css/home.css';
-import Button from '../components/Button';
 import Moni from '../media/MonicaBartha.png';
 import '../App.css';
-
 
 function Home() {
     return (
@@ -13,9 +11,9 @@ function Home() {
                 <h1>Monica Bartha</h1>
                 <h2>I bring some pink</h2>
                   <div className="paragraph">
-                    <p>I’m a front-end developer based in Santiago, Chile, specialized in developing web apps.</p>
+                    <p>I’m a front-end developer based in Santiago, Chile, specialized in developing modern web apps.</p>
                   </div>
-                <Button title="See My Works"></Button>
+                  <a href="/work" className="btn">See my works</a>
             </div>   
         <div className="divImg">
             <img className="homeImg" alt="moni" src={Moni} />

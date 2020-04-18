@@ -6,6 +6,7 @@
     margin-top: 5%;
     width: 100%;
     box-sizing: border-box;
+
 }
 
 .homeImg {
@@ -21,12 +22,12 @@
 @media only screen and (max-width: 768px) {
     .homeImg {
         width: 40%;
-        margin-top: 3%;
+        margin-bottom: 5%;
     }
-}
 
-@media only screen and (max-width: 768px) {
     .paragraph {
         padding-right: 25%;
     }
 }
+
+@media only screen and (max-width: 480px) {}
