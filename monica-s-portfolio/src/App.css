@@ -268,7 +268,7 @@ a {
 /* Tab Name from Experience Page */
 @media only screen and (max-width: 480px) {
   .MuiTab-wrapper {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     text-transform: capitalize;
     font-family: jetbrains_monoregular;
   }

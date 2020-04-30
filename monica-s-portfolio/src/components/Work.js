@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
 import ProjectFingerFood from './ProjectFingerFood';
-import ProjectCaesarCipher from './ProjectCaesarCipher';
+import ProjectMDlinks from './ProjectMDlinks';
+import ProjectMoov from './ProjectMoov';
 
 function Work() {
     return (
@@ -10,9 +11,11 @@ function Work() {
           <p className="customP">04. Projects</p>
           <h1>Some of my works</h1>
           <div className="projectDiv"></div>
-          <ProjectFingerFood />
+          <ProjectMoov />
           <div className="projectDiv"></div>
-          <ProjectCaesarCipher />
+          <ProjectMDlinks />
+          <div className="projectDiv"></div>
+          <ProjectFingerFood />
         </div>
     </div>
     

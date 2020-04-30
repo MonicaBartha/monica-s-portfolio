@@ -14,8 +14,8 @@ function ProjectFingerFood() {
         <div className="secondColumn">
                 <p className="projectsP">Collaborative Project</p>
                 <h3>Finger Food Social App</h3>
-                <p className="projectDescription">Social media app for gourmet food fans.</p>
-                <p className="projectTechnologies">Vanilla Javascript | Firebase | Git</p>
+                <p className="projectDescription">Social media app where gourmet food fans can share and receive recommendation about restaurants or even recipes.</p>
+                <p className="projectTechnologies">Vanilla Javascript | Firebase | CSS3 | Git</p>
                 <a href="https://github.com/MonicaBartha/SCL012-Social-Network" target="_blank" rel="noopener noreferrer">
                   <img alt="code icon" className="codeIcon" src={Code} /></a>
                 <a href="https://monicabartha.github.io/SCL012-Social-Network/src/index.html" target="_blank" rel="noopener noreferrer">

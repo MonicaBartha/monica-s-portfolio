@@ -1,21 +1,24 @@
 import React from 'react';
-import '../App.css'
-import FingerFood from '../media/finger-food-facebook.jpg'
+import '../App.css';
 import Git from '../media/github-mark.png';
 import '../assets/css/work.css';
+import Code from '../media/code30x30.png';
+import MoovImg from '../media/moov-project.jpg';
 
 function ProjectMoov() {
     return (
       <div className="workDiv">
         <div className="firstColumn">
-         <img className="fingerFoodImg" alt="finger-food-project" align="left" src={FingerFood} />
+         <img className="fingerFoodImg" alt="moov-project-presentation" align="left" src={MoovImg} />
         </div>
         <div className="secondColumn">
                 <p className="projectsP">Collaborative Project</p>
-                <h3>Finger Food Social App</h3>
-                <p className="projectDescription">Social media app for gourmet food fans.</p>
-                <p className="projectTechnologies">Vanilla Javascript | Firebase | Git</p>
-                <a href="https://monicabartha.github.io/SCL012-Social-Network/src/index.html" target="_blank" rel="noopener noreferrer">
+                <h3>Moov - tourism and accessibility</h3>
+                <p className="projectDescription">Moov is an application that makes it easier for people with reduced mobility to find tourist points of interest and inclusive places of entertainment.</p>
+                <p className="projectTechnologies">React | Here Maps Api | CSS3 | Git | Scrum</p>
+                <a href="https://github.com/MonicaBartha/moov" target="_blank" rel="noopener noreferrer">
+                  <img alt="code icon" className="codeIcon" src={Code} /></a>
+                <a href="https://moov-8e44e.web.app/" target="_blank" rel="noopener noreferrer">
                   <img alt="github" src={Git} /></a>
         </div>
     </div>
