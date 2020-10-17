@@ -7,7 +7,7 @@ import ProjectMoov from './ProjectMoov';
 function Work() {
     return (
       <div className="mainDiv">
-        <div className="divContent">
+        <div className="one-container">
           <p className="customP">04. Projects</p>
           <h1>Some of my works</h1>
           <div className="projectDiv"></div>

@@ -6,7 +6,7 @@ import Divider from '@material-ui/core/Divider';
 function Experience() {
     return (
       <div className="mainDiv">
-        <div className="divContent">
+        <div className="one-container">
           <p className="customP">03. Work</p>
           <h1>Exprience</h1>
           <br></br>

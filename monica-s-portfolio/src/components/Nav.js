@@ -6,7 +6,11 @@ import MenuIcon from '../media/menu-button.png'
 function Nav() {
     const navStyle = {
         color: '#FF0081',
-        textDecoration: 'none'
+        textDecoration: 'none',
+    };
+    const linkStyle = {
+        textDecoration: 'none',
+        color: '#333'
     };
     
     return (
@@ -16,12 +20,12 @@ function Nav() {
                 <input type="checkbox" id="toggle" />
                 <div className="nav-links">
                     <ul>
-                        <Link  to="/"><li><span style={navStyle}>01.</span> Home</li> </Link>
-                        <Link  to="/about"><li><span style={navStyle}>02.</span> About</li> </Link>
-                        <Link  to="/experience"><li><span style={navStyle}>03.</span> Experience</li></Link>
-                        <Link  to="/work"><li><span style={navStyle}>04.</span> Work</li></Link>
-                        <Link to="/contact"><li><span style={navStyle}>05.</span> Contact</li></Link>
-                        <a href="https://monicab.dev/src/media/Curriculum-Vitae_Monica-Bartha-EN.pdf" target="_blank" className="btn resume-btn" rel="noopener noreferrer">Resume</a>
+                        <Link style={linkStyle} to="/"><li><span style={navStyle}>01.</span> Home</li> </Link>
+                        <Link style={linkStyle} to="/about"><li><span style={navStyle}>02.</span> About</li> </Link>
+                        <Link style={linkStyle} to="/experience"><li><span style={navStyle}>03.</span> Experience</li></Link>
+                        <Link style={linkStyle} to="/work"><li><span style={navStyle}>04.</span> Work</li></Link>
+                        <Link style={linkStyle} to="/contact"><li><span style={navStyle}>05.</span> Contact</li></Link>
+                        <a href="https://monicab.dev/src/media/Resume_Monica-Bartha-EN.pdf" target="_blank" className="btn resume-btn" rel="noopener noreferrer">Resume</a>
                     </ul>
                 </div>
             </header>

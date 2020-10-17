@@ -61,8 +61,6 @@
         display: block;
         bottom: 0;
         width: 100%;
-        display: flex;
-        flex-direction: column;
     }
 
     .footerSocialIcons {
@@ -107,5 +105,11 @@
 
     .footerBehanceIcon {
         margin-top: 0.437rem;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .footerIcons {
+        bottom: 0;
     }
 }

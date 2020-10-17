@@ -33,7 +33,8 @@
     font-size: 0.687rem;
 }
 
-.fingerFoodImg {
+.fingerFoodImg,
+.md-links {
     width: 100%;
 }
 
